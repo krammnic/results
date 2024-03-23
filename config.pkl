@@ -1,0 +1,29 @@
+container {
+  name = "tochka"
+  edit_code = "yes"
+  path = "/home/krammnic/Flash.it/container-surgeon/examples/ultra_math"
+  model_path = ""
+  predictor_path = ""
+  start = "hot"
+  doxegen = "no"
+  id = 12332424
+  params = 7 // Only for LLMs
+  data = "data"
+  metric = 60
+  push_custom = 1
+  run_command = ""
+  infrastructure_config {
+    devops = "kubernetes"
+    model = "no-model"
+    dockerfile = "basic"
+    run_file = "/home/krammnic/Flash.it/container-surgeon/examples/ultra_math/main.py"
+  }
+  resources {
+    gpu = ""
+    cpu = ""
+    tpu = ""
+    lpu = ""
+    ram = ""
+  }
+  docs = "docs"
+}
