@@ -1,12 +1,3 @@
----
-hide:
-  - navigation
----
-
-<style>
-.md-content .md-typeset h1 { display: none; }
-</style>
-
 ## Flash.it
 
 **Flash.it** is a modern framework that provides powerful containers to accelerate your ML-infrastructure.
